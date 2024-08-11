@@ -1,0 +1,1003 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    
+}
+
+/* header */
+nav{
+    width: 100%;
+    height: 10vh;
+    background-image: url('img/nav-tree.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo h1{
+    color: white;
+    position: relative;
+    left: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.logo span{
+    color: whitesmoke;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list ul li{
+    list-style: none;
+    padding-right: 40px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: 0.6s;
+    padding: 3px 3px;
+}
+.list ul li a:hover{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-right: 5px;
+}
+.list ul li a:focus{
+    background-color: gainsboro;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    color: brown;
+    border-left: 3px solid brown;
+}
+
+
+
+/* main content*/
+
+main{
+    width: 100%;
+    height: 90vh;
+    background-image: url('img/big-tree.jpg');
+    background-size: cover;
+    padding-top: 70px;
+    text-align: center;
+}
+.content{
+    width: 80%;
+    height: 80vh;
+    background-image: url('img/nav-tree.jpg');
+    position: relative;
+    left: 10%;
+    top: 5vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.text{
+    width: 40%;
+    height:100% ;
+    float: left;
+}
+.firstimg{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.tracteur{
+    width: 85%;
+    height: 65%;
+    position: relative;
+    top: 15vh;
+}
+.text h2{
+    padding-top: 15vh;
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.text p{
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 26px;
+}
+
+
+/* services section*/
+.services{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+    
+}
+.minititle{
+    width: 100%;
+    height: 35px;
+    background :linear-gradient(90deg,#BB1235,white);
+    margin-top: 35px;
+    text-align: center;
+    
+    
+}
+.minititle h3{
+    font-weight: 800;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    height: 25px;
+    padding: 5px 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.product{
+    width: 30%;
+    height: 40%;
+    border: 1px solid #27AA05;
+    text-align: center;
+    margin: auto;
+}
+.product h4{
+    font-weight: 500;
+    color:#227E01 ;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.product p{
+    
+    color: black ;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+.product .png1{
+    width: 100%;
+    height: 60%;
+}
+.product button{
+    width: 200px;
+    margin-top: 25px;
+    background-color: #84FA7F;
+    color: white;
+    border-color: #84FA7F;
+}
+.product button:hover{
+    background-color: #BAFEBB;
+    transform: scale(1.2);
+}
+
+
+/*about us*/
+
+.aboutus{
+    width: 100%;
+    height: 50vh;
+    display: block;
+    
+    
+}
+
+.company{
+    width: 49%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    
+}
+.info{
+    width: 49%;
+    height: 100%;
+    text-align: left;
+    float: right;
+    padding-top: 15px;
+    
+}
+.png2{
+    width: 50%;
+    height: 80%;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+.name{
+    color: #BB1235;
+    font-weight: 700;
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+}
+.name span{
+    color: #58011D;
+}
+.info p{
+    letter-spacing: 1.5px;
+    line-height: 50px;
+}
+.name2{
+    color: #BB1235;
+    font-weight: 700;
+    padding-top: 70px;
+    letter-spacing: 1.5px;
+}
+
+/*contact us*/
+.contactus{
+    width: 100%;
+    height: 80vh;
+    margin-top: 50px;
+}
+.box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    
+}
+
+#email{
+    width: 75%;
+    height: 30px;
+    margin-left: 20px;
+    border-color: red;
+    padding-left: 5px;
+    letter-spacing: 1.5px;
+}
+#message{
+    width: 75%;
+    height: 40%;
+    margin-left: 20px;
+    border: 1px solid red;
+    padding-left: 5px;
+    letter-spacing: 1.5px;
+}
+#send{
+    width: 120px;
+    height: 30px;
+    padding: 5px 0;
+    margin-left: 20px;
+    text-align: center;
+    background-color: #BB1235;
+    color: white;
+    border-color: #BB1235;
+    margin-top: 20px;
+}
+label{
+    margin-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#send:hover{
+    transform: scale(1.1);
+    color: #BB1235;
+    background-color: white;
+}
+.others{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    text-align: left;
+   
+}
+.others h3{
+    font-size: 32px;
+    color: #58011D;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.others h4{
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.others h4 i{
+    font-size: 26px;
+    padding-right: 5px;
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #BB1235;
+    text-align: center;
+}
+footer p{
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    letter-spacing: 1.5px;
+    position: relative;
+    
+}
+
+
+/* 
+max 455
+max 600 
+601 _____ 750
+751 _____ 830
+831 _____1300
+*/
+
+/* max 600*/
+@media (max-width:600px){
+    .tracteur{
+        display: none;
+      }
+      .firstimg{
+       display: none;
+      }
+      .text{
+       width: 100%;
+       text-align: center;
+      }
+      .text p{
+       font-size: 18px;
+      }
+      main{
+       width: 100%;
+       height: 70vh;
+      }
+      .content{
+       height: 60vh;
+       position: relative;
+       bottom: 15vh;
+      }
+      .text h2{
+       padding-top: 10vh;
+       color: white;
+       font-size: 26px;
+       
+      }
+      .services{
+       width: 100%;
+       height: 310vh;
+       display: flex;
+       flex-wrap: wrap;
+       text-align: center;
+       
+       
+       
+      }
+      .product{
+       margin-top: 5px;
+       width: 80%;
+       height: 15%;
+      }
+      .png2{
+       width: 25%;
+       height: 60%;
+       border-radius: 50%;
+       padding-top: 5px;
+       }
+       .name{
+       color: #BB1235;
+       font-weight: 700;
+       padding-top: 5px;
+       letter-spacing: 1.5px;
+       font-size: 19px;
+       }
+       .aboutus{
+       width: 100%;
+       height: 80vh;
+       display: block;
+       
+       
+   }
+   
+   .company{
+       width: 100%;
+       height: 35vh;
+       text-align: center;
+       
+       
+   }
+   .info{
+       width: 100%;
+       height: 45vh;
+       text-align: center;
+       padding-top: 15px;
+       
+   }
+   .info p{
+       letter-spacing: 1.5px;
+       font-size: 14px;
+       line-height: 30px;
+   }
+   .name2{
+       color: #BB1235;
+       font-weight: 700;
+       padding-top: 10px;
+       letter-spacing: 1.5px;
+   }
+   .contactus{
+       width: 100%;
+       height: 130vh;
+       margin-top: 50px;
+       display: block;
+   }
+   .box{
+       width: 100%;
+       height: 70vh;
+       display: flex;
+       flex-direction: column;
+       padding-left: 10px;
+       
+       
+   }
+   .others{
+       width: 100%;
+       height: 60vh;
+       display: flex;
+       flex-direction: column;
+       text-align: left;
+       padding-left: 10px;
+      
+   }
+   .others h3{
+       font-size: 28px;
+       color: #58011D;
+       font-weight: 700;
+       padding-left: 20px;
+       padding-bottom: 10px;
+   }
+   .others h4{
+       font-size: 16px;
+       letter-spacing: 1.5px;
+       padding-left: 20px;
+       padding-bottom: 20px;
+       font-weight: 500;
+   }
+   .others h4 i{
+       font-size: 20px;
+       padding-right: 2px;
+       padding-left: 10px;
+       z-index: 3;
+   }
+   footer{
+       width: 100%;
+       height: 8vh;
+       background-color: #BB1235;
+       text-align: center;
+       align-items: center;
+   }
+   footer p{
+       font-weight: 600;
+       color: white;
+       font-size: 12px;
+       width: 100%;
+       letter-spacing: 1.5px;
+       position: relative;
+       height: 100%;
+       bottom: 2vh;
+       
+   }
+   nav{
+       width: 100%;
+       height: 40vh;
+       background-image: url('img/nav-tree.jpg');
+       background-size: cover;
+       display: block;
+       align-items: center;
+       text-align: center;
+       
+   }
+   .logo h1{
+       color: white;
+       position: relative;
+       letter-spacing: 2px;
+       text-transform: uppercase;
+       cursor: pointer;
+       left: 0px;
+       font-size: 28px;
+       top: 20px;
+   }
+   .logo span{
+       color: whitesmoke;
+   }
+   .logo{
+       width: 100%;
+       height: 10vh;
+       text-align: center;
+   }
+   .list{
+       height: 30vh;
+       width: 100%;
+       text-align: center;
+       background-color: brown;
+   }
+   
+   .list ul {
+       display: block;
+       align-items: center;
+   }
+   .list ul li{
+       list-style: none;
+       padding-top: 20px;
+       
+       
+   
+       
+   }
+   .list ul li a{
+       text-decoration: none;
+       color: white;
+       font-weight: 700;
+       transition: 0.6s;
+       border-top: solid 0.5px #f86f8a;
+       width: 100%;
+       
+       
+   }
+   
+      
+   
+       
+}
+
+
+
+
+/*max 455 */
+
+@media (max-width:455px) {
+  
+   .tracteur{
+     display: none;
+   }
+   .firstimg{
+    display: none;
+   }
+   .text{
+    width: 100%;
+    text-align: center;
+   }
+   .text p{
+    font-size: 16px;
+   }
+   main{
+    width: 100%;
+    height: 70vh;
+   }
+   .content{
+    height: 60vh;
+    position: relative;
+    bottom: 15vh;
+   }
+   .text h2{
+    padding-top: 10vh;
+    color: white;
+    font-size: 26px;
+    
+   }
+   .services{
+    width: 100%;
+    height: 310vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+    
+   }
+   .product{
+    margin-top: 5px;
+    width: 80%;
+    height: 15%;
+   }
+   .png2{
+    width: 25%;
+    height: 60%;
+    border-radius: 50%;
+    padding-top: 5px;
+    }
+    .name{
+    color: #BB1235;
+    font-weight: 700;
+    padding-top: 5px;
+    letter-spacing: 1.5px;
+    font-size: 19px;
+    }
+    .aboutus{
+    width: 100%;
+    height: 80vh;
+    display: block;
+    
+    
+}
+
+.company{
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+    
+    
+}
+.info{
+    width: 100%;
+    height: 45vh;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.info p{
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.name2{
+    color: #BB1235;
+    font-weight: 700;
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+}
+.contactus{
+    width: 100%;
+    height: 130vh;
+    margin-top: 50px;
+    display: block;
+}
+.box{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    
+    
+}
+.others{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10px;
+   
+}
+.others h3{
+    font-size: 28px;
+    color: #58011D;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.others h4{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.others h4 i{
+    font-size: 20px;
+    padding-right: 2px;
+    padding-left: 10px;
+    z-index: 3;
+}
+footer{
+    width: 100%;
+    height: 8vh;
+    background-color: #BB1235;
+    text-align: center;
+    align-items: center;
+}
+footer p{
+    font-weight: 600;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    letter-spacing: 1.5px;
+    position: relative;
+    height: 100%;
+    bottom: 2vh;
+    
+}
+nav{
+    width: 100%;
+    height: 40vh;
+    background-image: url('img/nav-tree.jpg');
+    background-size: cover;
+    display: block;
+    align-items: center;
+    text-align: center;
+    
+}
+.logo h1{
+    color: white;
+    position: relative;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    left: 0px;
+    top: 20px;
+}
+.logo span{
+    color: whitesmoke;
+}
+.logo{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+.list{
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    background-color: brown;
+}
+
+.list ul {
+    display: block;
+    align-items: center;
+}
+.list ul li{
+    list-style: none;
+    padding-top: 20px;
+    
+    
+
+    
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: 0.6s;
+    border-top: solid 0.5px #f86f8a;
+    width: 100%;
+    
+    
+}
+
+   
+
+    
+}
+
+/* from 831px to 1300 px*/
+
+@media (min-width:831px) and (max-width:1300px){
+    .text p{
+        font-size: 22px;
+    }
+    .text{
+        padding-left: 5px;
+    }
+    .info p{
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 5px;
+    }
+    .others h3{
+        font-size: 27px;
+        color: #58011D;
+        font-weight: 700;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .others h4{
+        font-size: 22px;
+        letter-spacing: 1.5px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+    .others h4 i{
+        font-size: 23px;
+    }
+
+}
+
+/* from 751 to 830 */
+
+@media (min-width:751px) and (max-width:830px){
+    .list ul li{
+        list-style: none;
+        padding-right: 25px;
+    }
+    .list ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        transition: 0.6s;
+        padding: 3px 3px;
+    }
+    .logo h1{
+        font-size: 24px;
+    }
+    .text{
+        width: 50%;
+        height:100% ;
+    }
+    .text p{
+        font-size: 19px;
+    }
+    .text h2{
+        font-size: 30px;
+    }
+    .tracteur{
+        width: 80%;
+        height: 55%;
+        position: relative;
+        top: 15vh;
+    }
+    .others h3{
+        font-size: 29px;
+        color: #58011D;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .others h4{
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+    .others h4 i{
+        font-size: 24px;
+        padding-right: 5px;
+    }
+    .png2{
+        width: 48%;
+        height: 70%;
+        border-radius: 50%;
+        padding-top: 5px;
+    }
+    .name{
+        color: #BB1235;
+        font-weight: 700;
+        padding-top: 5px;
+        letter-spacing: 1.5px;
+    }
+    .name span{
+        color: #58011D;
+    }
+    .info p{
+        letter-spacing: 1.5px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .name2{
+        color: #BB1235;
+        font-weight: 700;
+        padding-top: 20px;
+        letter-spacing: 1.5px;
+    }
+    footer{
+        width: 100%;
+        height: 7vh;
+        background-color: #BB1235;
+        text-align: center;
+    }
+    footer p{
+        font-weight: 600;
+        color: white;
+        width: 100%;
+        letter-spacing: 1.5px;
+        position: relative;
+        bottom: 20px;
+        
+    }
+    
+}
+/* from 601  to 750 */
+
+@media (min-width:601px) and (max-width:750px){
+    .info p{
+        letter-spacing: 1.5px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .name2{
+        color: #BB1235;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+    .others h3{
+        font-size: 26px;
+        color: #58011D;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .others h4{
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+        font-weight: 500;
+    }
+    .others h4 i{
+        font-size: 20px;
+        padding-right: 3px;
+    }
+    .png2{
+        width: 50%;
+        height: 60%;
+        border-radius: 50%;
+        padding-top: 5px;
+    }
+    .tracteur{
+        display: none;
+    }
+    .firstimg{
+        display: none;
+    }
+    .text{
+        width: 90%;
+    }
+    .product{
+        width: 48%;
+        height: 30%;
+        border: 1px solid #27AA05;
+        text-align: center;
+        margin: auto;
+    }
+    .services{
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        
+        
+        
+    }
+    .logo h1{
+        color: white;
+        position: relative;
+        font-size: 20px;
+        left: 8px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .list ul li{
+        list-style: none;
+        padding-right: 15px;
+    }
+    .list ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        transition: 0.6s;
+        padding: 3px 3px;
+    }
+}
+
+
+/*           */
+
+
+
+
+
+
+
+
+
+
